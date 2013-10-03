@@ -6,3 +6,9 @@ sqlWrapper::sqlWrapper(QObject *parent) :
     Sql = new sql();
     qry = new QSqlQuery();
 }
+
+
+void sqlWrapper::qryPrepare()
+{
+
+}

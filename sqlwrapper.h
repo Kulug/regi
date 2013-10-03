@@ -30,6 +30,7 @@ public:
     void editUser();
     void editTeam();
     void editRole();
+    void qryPrepare();
 
 signals:
     
