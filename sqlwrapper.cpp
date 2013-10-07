@@ -15,3 +15,5 @@ void sqlWrapper::qryPrepare(QString query, QMap *fields)
         qry->bindValue(i , fields->value(i));
     }
 }
+
+//test
