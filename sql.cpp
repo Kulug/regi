@@ -20,7 +20,7 @@ void sql::db_conn()
     }
 }
 
-void sql::sql_exec(QSqlQuery *qry, QSqlResult *res)
+void sql::sql_exec(QSqlQuery *qry, const QSqlResult *res)
 {
     if(qry->exec()){
         res = qry->result();
@@ -30,7 +30,7 @@ void sql::sql_exec(QSqlQuery *qry, QSqlResult *res)
     }
 }
 
-void sql::sql_exec(QSqlQuery *)
+void sql::sql_exec(QSqlQuery *qry)
 {
     if(qry->exec()){
 

@@ -16,13 +16,13 @@ public:
     explicit sql(QObject *parent = 0);
     ~sql();
     void db_conn();
-    void sql_exec(QSqlQuery*,QSqlResult*);
+    void sql_exec(QSqlQuery*,const QSqlResult*);
     void sql_exec(QSqlQuery*);
-    
+
 signals:
-    
+
 public slots:
-    
+
 };
 
 #endif // SQL_H

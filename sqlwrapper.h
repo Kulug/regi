@@ -30,12 +30,12 @@ public:
     void editUser();
     void editTeam();
     void editRole();
-    void qryPrepare();
+    void qryPrepare(QString,QMap*);
 
 signals:
-    
+
 public slots:
-    
+
 };
 
 #endif // SQLWRAPPER_H
